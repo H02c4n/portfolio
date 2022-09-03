@@ -1,6 +1,15 @@
+//BASE
 @import './base/reset';
-@import './abstracts/mixins', './abstracts/variables';
-@import './components/footer', './components/nav', './components/responsive';
-
-@import './pages/about', './pages/contact', './pages/home', './pages/projects';
+//ABSTRACT
+@import './abstracts/mixins';
+@import './abstracts/variables';
+//COMPONENTS
+@import './components/footer';
+@import './components/nav';
+@import './components/responsive';
+//PAGES
+@import './pages/about'; 
+@import './pages/contact';
+@import './pages/home';
+@import './pages/projects';
 
