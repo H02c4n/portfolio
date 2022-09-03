@@ -1,0 +1,7 @@
+
+
+.project-bgImg-container{
+    @include bgImage(40vh, $main-bgImage-path);
+}
+
+
